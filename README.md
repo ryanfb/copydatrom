@@ -28,4 +28,4 @@ CopyDATROM will **not**:
  
 Pull requests for some of these may be accepted, if they can maintain the tool's simplicity-of-use.
 
-If you want to make a "1G1R" (one game, one ROM) romset from a romset with many possible duplicates and disorganized naming, you can use CopyDATROM with no-intro DAT files to first rename/copy your ROMs into no-intro's naming, then use the [1g1r-romset-generator](https://github.com/andrebrait/1g1r-romset-generator) on the renamed directory.
+If you want to make a "1G1R" (one game, one ROM) romset from a romset with many possible duplicates and disorganized naming (i.e. GoodTools/GoodSets romsets), you can use CopyDATROM with no-intro DAT files to first rename/copy your ROMs into no-intro's naming, then use the [1g1r-romset-generator](https://github.com/andrebrait/1g1r-romset-generator) on the renamed directory.
