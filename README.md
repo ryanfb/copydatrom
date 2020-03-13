@@ -15,7 +15,7 @@ CopyDATROM will then:
      * check for the SHA1 hash in `datfile.dat`
      * copy it to `rom-dest-dir` with the corresponding ROM name specified in `datfile.dat`
 
-That's it!
+That's it! All your files in `rom-source-dir` should remain completely untouched.
 
 CopyDATROM will **not**:
 
