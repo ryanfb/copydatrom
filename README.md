@@ -23,5 +23,6 @@ CopyDATROM will **not**:
  * generate zip/7z/rar files
  * generate split/merged/non-merged sets
  * generate statistics about how many ROMs you have or are missing
+ * calculate CRC32/MD5 hashes (your DAT file must have SHA1 hashes)
 
 If you want to make a "1G1R" (one game, one ROM) romset, you can use CopyDATROM with no-intro DAT files to first rename your ROMs to no-intro's naming, then use the [1g1r-romset-generator](https://github.com/andrebrait/1g1r-romset-generator) on the renamed directory.
