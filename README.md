@@ -10,7 +10,7 @@ CopyDATROM will then:
 
  * parse `datfile.dat`
  * check that `rom-dest-dir` exists
- * go through every file in `rom-source-dir` and:
+ * recursively go through every file in `rom-source-dir` and:
      * calculate its SHA1 hash
      * check for the SHA1 hash in `datfile.dat`
      * copy it to `rom-dest-dir` with the corresponding ROM name specified in `datfile.dat`
