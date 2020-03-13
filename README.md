@@ -12,13 +12,14 @@ CopyDATROM will then:
  * check that `rom-dest-dir` exists (and try to create it if not)
  * recursively go through every file in `rom-source-dir` and:
      * calculate its SHA1 hash
-     * check for the SHA1 hash in `datfile.dat`
-     * copy it to `rom-dest-dir` with the corresponding ROM name specified in `datfile.dat`
+     * check for a matching SHA1 hash in `datfile.dat`
+     * copy it to `rom-dest-dir` with the corresponding ROM name specified in `datfile.dat`, if a match is found
 
 That's it! All your files in `rom-source-dir` should remain completely untouched.
 
 CopyDATROM will **not**:
 
+ * modify or delete your source files
  * go inside zip/7z/rar files
  * generate zip/7z/rar files
  * generate split/merged/non-merged sets
