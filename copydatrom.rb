@@ -23,6 +23,7 @@ Find.find(source_rom_dir) do |f|
     sha1 = Digest::SHA1.hexdigest(File.read(f)).upcase
     $stderr.puts "SHA1: #{sha1}"
     matching_rom = dat_doc.xpath("//rom[@sha1='#{sha1}']").first
+    matching_rom ||= dat_doc.xpath("//rom[@sha1='#{sha1.downcase}']").first
     if matching_rom
       FileUtils.cp(f, File.join(target_rom_dir, matching_rom['name']), :verbose => true)
     else
