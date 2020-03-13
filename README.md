@@ -1,6 +1,6 @@
 # CopyDATROM
 
-This is designed to be an incredibly simple ROM "renaming" (actually just copying while renaming) utility for use with DAT files. The other tools I found for dealing with DAT files and ROM management/renaming/organization were just more confusing to me than giving up and writing this.
+This is designed to be an incredibly simple ROM "renaming" (actually just copying while renaming) utility for use with DAT files. The other tools I found for dealing with DAT files and ROM management/renaming/organization were more confusing to me than just giving up and writing this.
 
 ## Usage
 
