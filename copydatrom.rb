@@ -2,6 +2,7 @@
 require 'digest/sha1'
 require 'nokogiri'
 require 'find'
+require 'fileutils'
 
 if ARGV.length != 3
   $stderr.puts "Usage: bundle exec ./copydatrom.rb datfile.dat source-rom-dir target-rom-dir"
